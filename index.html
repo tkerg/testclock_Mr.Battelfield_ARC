@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>WAKE UP</title>
+  <link rel="favicon" href="favicon.ico">
+  <link rel="Stylesheet" type="text/css" href="./assets/css/scratchoff.css" />
+  <script type="text/javascript" src="./lib/jquery.1.11.0.min.js"></script>
+  <script type="text/javascript" src="./assets/js/selectors.js"></script>
+</head>
+<body>
+<div class="content">
+<div class="container">
+<div id="demo" class="scratchpad"></div>
+<div id="the-percent">0%</div>
+  <div class="buttons">
+    Normally hidden until 85% is rubbed off.<br>
+    <input type="button" id="snooze" value="Snooze">
+    <input type="button" id="dismiss" value="Dismiss">
+    <input type="button" value="Reset" onclick="$('#demo').wScratchPad('reset');"/>
+    <input type="button" value="Clear" onclick="$('#demo').wScratchPad('clear');"/>
+    <input type="button" value="Enable" onclick="$('#demo').wScratchPad('enable', true);"/>
+    <input type="button" value="Disable" onclick="$('#demo').wScratchPad('enable', false);"/>
+    <input type="button" class="pause" value="Pause">
+  </div>
+</div>
+</div>
+<script type="text/javascript" src="./lib/wScratchPad.min.js"></script>
+<script src="./assets/js/scratchoff.js"></script>
+</body>
+</html>

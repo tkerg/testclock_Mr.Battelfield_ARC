@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+}
+.container{
+  margin: 0 auto;
+  width: 90%;
+}
+.scratchpad{
+  width: 500px;
+  height: 500px;
+}
+.buttons{
+  /*display: none; Should be uncommented in production */
+  border: 1px solid black;
+  display: inline-block;
+  margin: 0 auto;
+}
